@@ -1,0 +1,21 @@
+Circuit: * C:\Users\mathg\Desktop\SAES2\NE555_Spice\NE555.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Mar 13 15:59:46 2022
+Total elapsed time: 0.088 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 16725
+traniter = 16717
+tranpoints = 4085
+accept = 3340
+rejected = 745
+matrix size = 15
+fillins = 0
+solver = Normal
+Matrix Compiler1: 434 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 849 bytes object code size  0.1/0.1/[0.1]
+

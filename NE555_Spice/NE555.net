@@ -1,0 +1,12 @@
+* C:\Users\mathg\Desktop\SAES2\NE555_Spice\NE555.asc
+V1 N001 0 5
+XU1 0 Vcond Sortie N001 NC_01 Vcond N002 N001 NE555
+C1 Vcond 0 150n
+R1 N003 Vcond 200k
+R2 N002 N003 22k
+R3 N001 N002 100k
+.tran 0 1 0 1m
+.op
+.lib NE555.sub
+.backanno
+.end
