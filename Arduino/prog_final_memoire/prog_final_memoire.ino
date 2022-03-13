@@ -41,6 +41,7 @@ void setup() {
 
 void loop() {
 
+  analogRead(lecture_Temp);                                                                       // Lecture à vide pour tenter de stabiliser la tension de sortie du capteur
   valeur_temp = analogRead(lecture_temp)*5.0*100.0/1023.0;                                        // Lecture de la valeur de température
 
   lcd.setCursor(11,0);
